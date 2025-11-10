@@ -5,6 +5,7 @@ Limpeza com organização e inovação!
 
  🏫 Escola SESI de Ensino Médio José Pedro Fernando Piovan - São Leopoldo
 Integrantes:
+
 👩‍💻 Emily  
 👩‍💻 Maria Eduarda  
 👩‍💻 Milena  
