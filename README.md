@@ -120,22 +120,22 @@ Entradas e saídas amigáveis com menu interativo.
     ---
     💻 Nosso codigo:
 
+---
+🧾 Conclusão
 
+Nosso projeto facilita e agiliza o controle da limpeza, otimizando o processo de inspeção e reduzindo falhas.
+O Tecnodivas contribui para um ambiente mais organizado, confiável e eficiente, promovendo bem-estar e produtividade.
 
+---
+💜 Agradecimento
 
+Obrigada pela atenção!
+— Equipe TECNODIVAS ✨
 
-    🧾 Conclusão
-      Nosso projeto facilita e agiliza o controle da limpeza, otimizando o processo
-      de inspeção e reduzindo falhas.
-      O Tecnodivas contribui para um ambiente mais organizado, confiável e eficiente, 
-      promovendo bem-estar e produtividade.
+---
+📜 Licença
 
-
-      💜 Agradecimento
-      Obrigada pela atenção!
-      — Equipe TECNODIVAS ✨
-
-      📄 Licença
-    Este material pode ser utilizado para fins educacionais com citação da fonte (Escola SESI de Ensino Médio José Pedro Fernando Piovan - São Leopoldo ).
+Este material pode ser utilizado para fins educacionais com citação da fonte
+(Escola SESI de Ensino Médio José Pedro Fernando Piovan).
 
 
