@@ -120,11 +120,7 @@ Entradas e saídas amigáveis com menu interativo.
 
    ---
    💻 Nosso codigo:
-
-
-programa {
-  funcao inicio() {
-    cadeia nomes[3], status[3], continuar, nomePesquisa, salas
+      cadeia nomes[3], status[3], continuar, nomePesquisa, salas
     inteiro opcao
     real horasTrabalhadas[3][2] , custoExtra[3], totalExtra = 0, totalHoras = 0
     logico encontrada = falso
@@ -224,9 +220,6 @@ programa {
           pare
         }
     }enquanto(opcao != 0 )
-  }
-}
-
 ---
 🧾 Conclusão
 
