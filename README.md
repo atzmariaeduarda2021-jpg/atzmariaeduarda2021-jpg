@@ -119,7 +119,111 @@ Entradas e saídas amigáveis com menu interativo.
     }enquanto(opcao !=0)
 
     ---
-    💻 Nosso codigo:
+ 💻 Nosso codigo:
+ programa {
+  funcao inicio() {
+    cadeia nomes[3], status[3], continuar, nomePesquisa, salas
+    inteiro opcao
+    real horasTrabalhadas[3][2] , custoExtra[3], totalExtra = 0, totalHoras = 0
+    logico encontrada = falso
+
+    faca {
+    limpa()
+      escreva("=== SISTEMA TECNODIVAS ===\n\n")
+      escreva("1 - Registrar presença das colaboradoras\n")
+      escreva("2 - Verificar ausências e calcular custo extra\n")
+      escreva("3 - Registrar atividades de limpeza\n")
+      escreva("4 - Gerar relatório diário\n")
+      escreva("0 - Sair do sistema\n\n")
+      escreva("Escolha uma opção: ")
+       leia(opcao)
+
+        escolha(opcao){
+          caso 1:
+          limpa()
+            escreva(":: REGISTRO DE PRESENÇA ::\n\n")
+                para(inteiro i=0; i < 3; i++){
+                  escreva("Nome da colaboradora ", i + 1, ": ")
+                    leia(nomes[i])
+                  escreva("Ela compareceu hoje? (sim/nao): ")
+                    leia(status[i]) 
+                    se(status[i] == "s") {
+                  escreva("Digite as horas trabalhadas nas 3 áreas (salas, banheiros, áreas comuns):\n")
+                 
+                para(inteiro j = 0; j < 2; j++){
+                  escreva("Horas no setor ", j+1, ": ")
+                    leia(horasTrabalhadas[i][j])
+                } 
+                    }   senao{
+                   // Se faltou, define horas e custo como zero
+                    para(inteiro j= 0; j < 2; j++){
+                            horasTrabalhadas[i][j] = 0}
+                        }   
+                      escreva("\n")
+                }
+                escreva("Presenças registradas com sucesso!\n")
+                escreva("Digite 'ENTER' para voltar ao menu...")
+                leia(continuar)
+          pare
+          caso 2:
+          limpa()
+               escreva(":: VERIFICAÇÃO DE AUSÊNCIAS E CÁLCULO DE CUSTO ::\n\n")
+                para(inteiro i = 0; i < 3; i++){
+                    se (status[i] == "n"){
+                        custoExtra[i] = 100.0   // custo fixo extra (exemplo)
+                        escreva("Colaboradora ", nomes[i], " faltou. Custo adicional", custoExtra[i], "\n")
+                    }
+                    senao {
+                        custoExtra[i] = 0
+                        escreva("Colaboradora ", nomes[i], " presente. Sem custo extra.\n")
+                    }
+                }  
+
+                escreva("\nVerificação concluída!\n")
+                escreva("Digite ENTER para voltar ao menu...")
+                leia(continuar)
+
+          pare
+          caso 3:
+          limpa()
+            escreva(":: REGISTRO DAS ATIVIDADES ::\n\n")
+           para(inteiro i = 0; i < 3; i++){
+            se(status[i] == "s"){
+              escreva("- Higienização de salas concluída? (sim/nao): ")
+              leia(salas)
+              escreva("- Higienização de banheiros concluída? (sim/nao): ")
+              leia(salas)
+              escreva("- Higienização das áreas comuns concluída? (sim/nao): ")
+              leia(salas)
+              escreva("\nAtividades registradas!\n\n")
+              
+              escreva("Digite ENTER para voltar ao menu...")
+          leia(continuar)
+
+            }
+            
+           }
+          pare
+          caso 4:
+          limpa()
+          escreva(":: RELATÓRIO DIÁRIO ::\n\n")
+          para(inteiro i = 0; i < 3; i++){
+          totalHoras = horasTrabalhadas[i][0] + horasTrabalhadas[i][1]
+          escreva("Colaboradora: ", nomes[i], "\n")
+          escreva("Status: ", status[i], "\n")
+          escreva("Total de horas trabalhadas: ", totalHoras, "\n")
+          escreva("Custo adicional: R$ ", custoExtra[i], "\n\n")
+          totalExtra = totalExtra + custoExtra[i]
+          }
+          escreva("CUSTO TOTAL EXTRA DO DIA: R$ ", totalExtra, "\n")
+          escreva("Digite ENTER para voltar ao menu...")
+          leia(continuar)
+
+          pare
+        }
+    }enquanto(opcao != 0 )
+  }
+}
 
 ---
 🧾 Conclusão
