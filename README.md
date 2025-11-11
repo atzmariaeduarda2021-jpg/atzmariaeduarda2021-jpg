@@ -1,25 +1,25 @@
-🧹 TECNODIVAS  
+ TECNODIVAS  
 Limpeza com organização e inovação!
 
 ---
 
- 🏫 Escola SESI de Ensino Médio José Pedro Fernando Piovan - São Leopoldo
+  Escola SESI de Ensino Médio José Pedro Fernando Piovan - São Leopoldo
 Integrantes:
 
-👩‍💻 Emily  
-👩‍💻 Maria Eduarda  
-👩‍💻 Milena  
+ Emily  
+ Maria Eduarda  
+ Milena  
 
 ---
 
-💡 Problema
+ Problema
 De acordo com nossa diretora Rafaela Rech, a direção enfrentava dificuldades relacionadas à limpeza do ambiente escolar.  
 Observou-se que espaços da escola não estavam sendo higienizados adequadamente, e quando alguma funcionária faltava,
 as demais não conseguiam cumprir toda a carga horária nem finalizar a limpeza completa dos ambientes.
 
 ---
 
-🧭 Justificativa
+ Justificativa
 
 Escolhemos esse problema porque a direção não tinha um controle eficiente sobre a rotina de limpeza, o que gerava sobrecarga 
 e falhas na manutenção dos espaços.  
@@ -28,7 +28,7 @@ um ambiente escolar sempre limpo, seguro e organizado.
 
 ---
 
- 🎯 Objetivo
+  Objetivo
 
  Desenvolver e implementar um sistema digital que auxilie a diretora no controle de presença e nas atividades das colaboradoras responsáveis pela limpeza.
 
@@ -41,7 +41,7 @@ Assim, garante-se eficiência, segurança e conforto para toda a comunidade esco
 
 ---
 
-👩‍🔧 Quem se beneficia?
+ Quem se beneficia?
 
 - Colaboradoras da limpeza: passam a ter um cronograma mais organizado e uma rotina de trabalho otimizada.  
 - Diretora: recebe relatórios automático sobre presenças e andamento da limpeza.  
@@ -49,7 +49,7 @@ Assim, garante-se eficiência, segurança e conforto para toda a comunidade esco
 
 ---
 
-🔄 Fluxograma TECNODIVAS
+ Fluxograma TECNODIVAS
 
 
 A[Início] --> B[Login no Aplicativo]
@@ -66,7 +66,7 @@ I --> L[Fim]
 K --> L
 
 ---
-    🧰 Como será feito e utilizado
+     Como será feito e utilizado
     -Serão utilizados 3 tablets Samsung Galaxy Tab A9 (64GB).
     -Instalados na secretaria e conectados ao aplicativo Tecnodivas.
     -Cada colaboradora faz o check-in diário inserindo seu código pessoal.
@@ -82,7 +82,7 @@ K --> L
     | Casas Bahia   | Galaxy Tab A9 64GB | R$ 899,00 |
 
 ---
-🖥️ Programação TECNODIVAS
+ Programação TECNODIVAS
 
 O sistema foi desenvolvido em Portugol, utilizando:
 Tipos de dados: inteiros, reais, lógicos e textos;
@@ -93,7 +93,7 @@ Entradas e saídas amigáveis com menu interativo.
 
 ---
 
-💻 Exemplo de código:
+ Exemplo de código:
     cadeia nomes[5], status[5], continuar
     inteiro opcao
     real horasTrabalhadas[5][3], custoExtra[5]
@@ -119,7 +119,7 @@ Entradas e saídas amigáveis com menu interativo.
     }enquanto(opcao !=0)
 
    ---
-   💻 Nosso codigo:
+    Nosso codigo:
       cadeia nomes[3], status[3], continuar, nomePesquisa, salas
     inteiro opcao
     real horasTrabalhadas[3][2] , custoExtra[3], totalExtra = 0, totalHoras = 0
@@ -221,19 +221,19 @@ Entradas e saídas amigáveis com menu interativo.
         }
     }enquanto(opcao != 0 )
 ---
-🧾 Conclusão
+ Conclusão
 
 Nosso projeto facilita e agiliza o controle da limpeza, otimizando o processo de inspeção e reduzindo falhas.
 O Tecnodivas contribui para um ambiente mais organizado, confiável e eficiente, promovendo bem-estar e produtividade.
 
 ---
-💜 Agradecimento
+ Agradecimento
 
 Obrigada pela atenção!
 — Equipe TECNODIVAS ✨
 
 ---
-📜 Licença
+ Licença
 
 Este material pode ser utilizado para fins educacionais com citação da fonte
 (Escola SESI de Ensino Médio José Pedro Fernando Piovan).
