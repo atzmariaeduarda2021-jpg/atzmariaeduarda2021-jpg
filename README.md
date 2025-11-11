@@ -118,9 +118,11 @@ Entradas e saídas amigáveis com menu interativo.
        }
     }enquanto(opcao !=0)
 
-    ---
+   ---
  💻 Nosso codigo:
- programa {
+
+
+programa {
   funcao inicio() {
     cadeia nomes[3], status[3], continuar, nomePesquisa, salas
     inteiro opcao
