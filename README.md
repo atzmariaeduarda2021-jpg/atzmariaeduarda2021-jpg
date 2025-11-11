@@ -119,7 +119,7 @@ Entradas e saídas amigáveis com menu interativo.
     }enquanto(opcao !=0)
 
    ---
- 💻 Nosso codigo:
+   💻 Nosso codigo:
 
 
 programa {
